@@ -34,6 +34,139 @@ div.options {
 button.tippy {
     background-color: #56039d;
 }
+button.tippy:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.panera {
+    background-color: #56039d;
+}
+button.panera:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.sheetz {
+    background-color: #56039d;
+}
+button.sheetz:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.moes {
+    background-color: #56039d;
+}
+button.moes:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.danks {
+    background-color: #56039d;
+}
+button.danks:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.fords {
+    background-color: #56039d;
+}
+button.fords:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.velocity {
+    background-color: #56039d;
+}
+button.velocity:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.social {
+    background-color: #56039d;
+}
+button.social:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.east {
+    background-color: #56039d;
+}
+button.east:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.bonchon {
+    background-color: #56039d;
+}
+button.bonchon:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.chipotle {
+    background-color: #56039d;
+}
+button.chipotle:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.cava {
+    background-color: #56039d;
+}
+button.cava:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.jersey {
+    background-color: #56039d;
+}
+button.jersey:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.jimmy {
+    background-color: #56039d;
+}
+button.jimmy:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.coal {
+    background-color: #56039d;
+}
+button.coal:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.sarku {
+    background-color: #56039d;
+}
+button.sarku:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+button.cfa {
+    background-color: #56039d;
+}
+button.cfa:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
 
 /* Function Buttons */
 div.Buttons {
