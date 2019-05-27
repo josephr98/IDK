@@ -28,7 +28,7 @@ function optionPosFunc() {
     document.getElementById("options").style.left = optionPosStringW;
     
     var height = document.documentElement.clientHeight;
-    var optionPosH = height - 550;
+    var optionPosH = height - 700;
     var optionPosStringH = optionPosH.toString() + "px";
 
     document.getElementById("options").style.top = optionPosStringH;
@@ -238,7 +238,16 @@ function drive() {
     var randNum = Math.ceil(Math.random() * 3);
     
     if (randNum == 1) {
-        alert("Brian (He is a dumbass)");
+        var randNum2 = Math.ceil(Math.random() * 3);
+        if (randNum2==1){
+            alert("Brian (He's a dumbass)");
+        }
+        if (randNum2==2){
+            alert("Brian (He's a headass)");
+        }
+        if (randNum2==3){
+            alert("Brian (If he even shows up)");
+        }
     }
     
     if (randNum == 2) {
