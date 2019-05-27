@@ -1,0 +1,54 @@
+/* Header */
+.sticky {
+    overflow: hidden;
+    padding: 0px 12px;
+    background: #871de2;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    width: 100%;
+    z-index: 999;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: 90;
+    line-height: 1.38;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    opacity: 1;
+}
+
+/* Option Buttons */
+div.options {
+    position: absolute;
+    height: 70px;
+    width: 460px;
+}
+
+button.tippy {
+    background-color: #56039d;
+}
+
+/* Function Buttons */
+div.Buttons {
+    position: absolute;
+    height: 70px;
+    width: 460px;
+}
+
+button {
+    background-color: #871de2;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:  100px;
+}
