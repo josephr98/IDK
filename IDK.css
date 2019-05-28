@@ -173,6 +173,15 @@ button.cfa:hover {
     color: #56039d;
     box-shadow: 0px 0px 10px grey;
 }
+button.wawa {
+    background-color: #56039d;
+}
+button.wawa:hover {
+    background-color: white;
+    color: #56039d;
+    box-shadow: 0px 0px 10px grey;
+}
+
 
 /* Function Buttons */
 div.Buttons {

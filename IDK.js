@@ -224,6 +224,16 @@ function cfa() {
         document.styleSheets[0].addRule('button.cfa', 'background-color: #871de2;');
     }
 }
+var i18 = 0;
+function wawa() {
+    if (i18 == 0) {
+        i18 = 1;
+        document.styleSheets[0].addRule('button.wawa', 'background-color: #56039d;');
+    } else {
+        i18 = 0;
+        document.styleSheets[0].addRule('button.wawa', 'background-color: #871de2;');
+    }
+}
 
 
 //Button Functions
