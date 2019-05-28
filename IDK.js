@@ -1,4 +1,3 @@
-/* eslint-env browser */
 "use strict";
 
 //Centers Button Div
@@ -22,7 +21,7 @@ window.addEventListener("resize", buttonPosFunc);
 //Centers Options Div
 function optionPosFunc() {
     var width = document.documentElement.clientWidth;
-    var optionPosW = width * 0.5;
+    var optionPosW = width * 0.5 - 230;
     var optionPosStringW = optionPosW.toString() + "px";
 
     document.getElementById("options").style.left = optionPosStringW;

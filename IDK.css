@@ -26,170 +26,90 @@ h1 {
 
 
 /* Option Buttons */
+button.tippy {
+    background-color: #871de2;
+}
+
+button.panera {
+    background-color: #871de2;
+}
+
+button.sheetz {
+    background-color: #871de2;
+}
+
+button.moes {
+    background-color: #871de2;
+    margin-top: 5px;
+}
+
+button.danks {
+    background-color: #871de2;
+}
+
+button.fords {
+    background-color: #871de2;
+}
+
+button.velocity {
+    background-color: #871de2;
+    margin-top: 5px;
+}
+
+button.social {
+    background-color: #871de2;
+}
+
+button.east {
+    background-color: #871de2;
+}
+
+button.bonchon {
+    background-color: #871de2;
+    margin-top: 5px;
+}
+
+button.chipotle {
+    background-color: #871de2;
+}
+
+button.cava {
+    background-color: #871de2;
+}
+
+button.jersey {
+    background-color: #871de2;
+    margin-top: 5px;
+}
+
+button.jimmy {
+    background-color: #871de2;
+}
+
+button.coal {
+    background-color: #871de2;
+}
+
+button.sarku {
+    background-color: #871de2;
+    margin-top: 5px;
+}
+
+button.cfa {
+    background-color: #871de2;
+}
+
+button.wawa {
+    background-color: #871de2;
+}
+
 div.options {
     position: absolute;
     height: 70px;
     width: 460px;
 }
 
-button.tippy {
-    background-color: #56039d;
-}
-button.tippy:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.panera {
-    background-color: #56039d;
-}
-button.panera:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.sheetz {
-    background-color: #56039d;
-}
-button.sheetz:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.moes {
-    background-color: #56039d;
-    margin-top: 5px;
-}
-button.moes:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.danks {
-    background-color: #56039d;
-}
-button.danks:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.fords {
-    background-color: #56039d;
-}
-button.fords:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.velocity {
-    background-color: #56039d;
-    margin-top: 5px;
-}
-button.velocity:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.social {
-    background-color: #56039d;
-}
-button.social:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.east {
-    background-color: #56039d;
-}
-button.east:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.bonchon {
-    background-color: #56039d;
-    margin-top: 5px;
-}
-button.bonchon:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.chipotle {
-    background-color: #56039d;
-}
-button.chipotle:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.cava {
-    background-color: #56039d;
-}
-button.cava:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.jersey {
-    background-color: #56039d;
-    margin-top: 5px;
-}
-button.jersey:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.jimmy {
-    background-color: #56039d;
-}
-button.jimmy:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.coal {
-    background-color: #56039d;
-}
-button.coal:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.sarku {
-    background-color: #56039d;
-    margin-top: 5px;
-}
-button.sarku:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.cfa {
-    background-color: #56039d;
-}
-button.cfa:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-button.wawa {
-    background-color: #56039d;
-}
-button.wawa:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
-}
-
-
 /* Function Buttons */
-div.Buttons {
-    position: absolute;
-    height: 70px;
-    width: 460px;
-}
-
 button {
     background-color: #871de2;
     border: none;
@@ -199,6 +119,12 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius:  100px;
+}
+
+div.Buttons {
+    position: absolute;
+    height: 70px;
+    width: 460px;
 }
 
 button:hover{
