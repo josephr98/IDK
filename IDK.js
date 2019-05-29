@@ -18,6 +18,18 @@ background();
 
 window.addEventListener("resize", background);*/
 
+//Centers Grey Block
+function blockPosFunc() {
+    var width = document.documentElement.clientWidth;
+    var blockPosW = width * 0.5 - 240;
+    var blockPosStringW = blockPosW.toString() + "px";
+
+    document.getElementById("block").style.left = blockPosStringW;
+}
+blockPosFunc();
+
+window.addEventListener("resize", blockPosFunc);
+
 //Centers Button Div
 function buttonPosFunc() {
     var width = document.documentElement.clientWidth;
@@ -269,7 +281,7 @@ function food() {
     if (i11==1){
         var r7 = foodArray.splice(10,1);
     }
-    if (i10=1){
+    if (i10==1){
         var r8 = foodArray.splice(9,1);
     }
     if (i9==1){

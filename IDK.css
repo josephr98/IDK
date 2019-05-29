@@ -4,11 +4,24 @@
     padding: 0px 12px;
     background: #871de2;
     position: fixed;
-    top: 0;
+    top: 0px;
     margin-left: -10px;
+    max-height: 55px;
     width: 100%;
     z-index: 999;
-    opacity: 0.86;
+    opacity: 1;
+    box-shadow: 0px 0px 10px black;
+}
+
+.sticky_ {
+    background: white;
+    position: absolute;
+    top: 55px;
+    margin-left: -8px;
+    width: 50px;
+    height: 100%;
+    z-index: 998;
+    opacity: 1;
     box-shadow: 0px 0px 10px black;
 }
 
@@ -38,8 +51,21 @@ h2 {
     opacity: 1;
 }
 
+/* Gray Block */
+div.block {
+    z-index: 90;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80px;
+    height: 590px;
+    width: 480px;
+    opacity: 0.6;
+    box-shadow: 0px 0px 10px black;
+}
+
 /* Option Buttons */
 div.options {
+    z-index: 100;
     position: absolute;
     height: 70px;
     width: 430px;
@@ -199,6 +225,7 @@ button.wawa:hover {
 
 /* Function Buttons */
 div.Buttons {
+    z-index: 100;
     position: absolute;
     top: 530px;
     height: 70px;
@@ -222,7 +249,7 @@ button:hover{
     box-shadow: 0px 0px 10px grey;
 }
 
-img{
+img.background {
     margin-left: -10px;
     margin-top: -10px;
     margin-bottom: -12px;
