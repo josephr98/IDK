@@ -243,7 +243,63 @@ function wawa() {
 
 //Button Functions
 function food() {
-    var foodArray = ["Tippy's", "Panera", "Sheetz", "Moe's", "McDank's", "Ford's", "Velocity", "Social House", "East Gate", "BonChon", "Chipotle", "CAVA", "Jersey Mikes", "Jimmy Johns", "Coal Fire", "Sarku", "Chick fil A"];
+    var foodArray = ["Tippy's", "Panera", "Sheetz", "Moe's", "McDank's", "Ford's", "Velocity", "Social House", "East Gate", "BonChon", "Chipotle", "CAVA", "Jersey Mikes", "Jimmy Johns", "Coal Fire", "Sarku", "Chick fil A", "Wawa"];
+    
+    if (i18==1){
+        var r = foodArray.splice(17,1);
+    }
+    if (i17==1){
+        var r1 = foodArray.splice(16,1);
+    }
+    if (i16==1){
+        var r2 = foodArray.splice(15,1);
+    }
+    if (i15==1){
+        var r3 = foodArray.splice(14,1);
+    }
+    if (i14==1){
+        var r4 = foodArray.splice(13,1);
+    }
+    if (i13==1){
+        var r5 = foodArray.splice(12,1);
+    }
+    if (i12==1){
+        var r6 = foodArray.splice(11,1);
+    }
+    if (i11==1){
+        var r7 = foodArray.splice(10,1);
+    }
+    if (i10=1){
+        var r8 = foodArray.splice(9,1);
+    }
+    if (i9==1){
+        var r9 = foodArray.splice(8,1);
+    }
+    if (i8==1){
+        var r10 = foodArray.splice(7,1);
+    }
+    if (i7==1){
+        var r11 = foodArray.splice(6,1);
+    }
+    if (i6==1){
+        var r12 = foodArray.splice(5,1);
+    }
+    if (i5==1){
+        var r13 = foodArray.splice(4,1);
+    }
+    if (i4==1){
+        var r14 = foodArray.splice(3,1);
+    }
+    if (i3==1){
+        var r15 = foodArray.splice(2,1);
+    }
+    if (i2==1){
+        var r16 = foodArray.splice(1,1);
+    }
+    if (i1==1){
+        var r17 = foodArray.splice(0,1);
+    }
+    
     var randNum = Math.floor(Math.random() * foodArray.length);
     
     alert(foodArray[randNum]);
