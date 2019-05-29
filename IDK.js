@@ -1,7 +1,7 @@
 "use strict";
 
-//Centers Button Div
-function buttonPosFunc() {
+//Scales Background Image
+/*function background() {
     var width = document.documentElement.clientWidth;
     var buttonPosW = width * 0.5 - 230;
     var buttonPosStringW = buttonPosW.toString() + "px";
@@ -14,6 +14,18 @@ function buttonPosFunc() {
 
     document.getElementById("Buttons").style.top = buttonPosStringH;
 }
+background();
+
+window.addEventListener("resize", background);*/
+
+//Centers Button Div
+function buttonPosFunc() {
+    var width = document.documentElement.clientWidth;
+    var buttonPosW = width * 0.5 - 215;
+    var buttonPosStringW = buttonPosW.toString() + "px";
+
+    document.getElementById("Buttons").style.left = buttonPosStringW;
+}
 buttonPosFunc();
 
 window.addEventListener("resize", buttonPosFunc);
@@ -21,16 +33,10 @@ window.addEventListener("resize", buttonPosFunc);
 //Centers Options Div
 function optionPosFunc() {
     var width = document.documentElement.clientWidth;
-    var optionPosW = width * 0.5 - 230;
+    var optionPosW = width * 0.5 - 215;
     var optionPosStringW = optionPosW.toString() + "px";
 
     document.getElementById("options").style.left = optionPosStringW;
-    
-    var height = document.documentElement.clientHeight;
-    var optionPosH = height - 700;
-    var optionPosStringH = optionPosH.toString() + "px";
-
-    document.getElementById("options").style.top = optionPosStringH;
 }
 optionPosFunc();
 
