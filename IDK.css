@@ -6,28 +6,24 @@
     position: fixed;
     top: 0px;
     margin-left: -10px;
-    max-height: 55px;
+    height: 55px;
     width: 100%;
     z-index: 999;
     opacity: 0.88;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px #3d0071;
+    text-align: center;
 }
 
 .sticky_ {
     background: white;
     position: absolute;
-    top: 55px;
-    margin-left: -8px;
-    width: 50px;
-    height: 100%;
     z-index: 998;
-    opacity: 1;
-    box-shadow: 0px 0px 10px black;
+    opacity: 0.92;
+    box-shadow: 0px 0px 5px white;
 }
 
 h1 {
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 40px;
     font-weight: 90;
     line-height: 1.38;
     margin-left: 10px;
@@ -49,7 +45,7 @@ h2 {
     margin-bottom: 0px;
     color: #871de2;
     opacity: 1;
-    text-shadow: 0px 0px 4px #ceb7e2;
+    text-shadow: 0px 0px 2px #b975f4;
 }
 
 /* Gray Block */
@@ -57,11 +53,11 @@ div.block {
     z-index: 90;
     background-color: #ffffff;
     position: absolute;
-    top: 80px;
-    height: 590px;
+    top: 75px;
+    height: 595px;
     width: 480px;
-    opacity: 0.6;
-    box-shadow: 0px 0px 10px black;
+    opacity: 0.48;
+    box-shadow: 0px 0px 7px white;
 }
 
 /* Option Buttons */
@@ -76,153 +72,188 @@ div.options {
 button.tippy {
     background-color: #871de2;
 }
-button.tippy:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.tippy:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.panera {
     background-color: #871de2;
 }
-button.panera:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.panera:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.sheetz {
     background-color: #871de2;
 }
-button.sheetz:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.sheetz:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.moes {
     background-color: #871de2;
     margin-top: 5px;
 }
-button.moes:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.moes:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.danks {
     background-color: #871de2;
 }
-button.danks:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.danks:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.fords {
     background-color: #871de2;
 }
-button.fords:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.fords:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.velocity {
     background-color: #871de2;
     margin-top: 5px;
 }
-button.velocity:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.velocity:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.social {
     background-color: #871de2;
 }
-button.social:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.social:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.east {
     background-color: #871de2;
 }
-button.east:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.east:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.bonchon {
     background-color: #871de2;
     margin-top: 5px;
 }
-button.bonchon:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.bonchon:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.chipotle {
     background-color: #871de2;
 }
-button.chipotle:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.chipotle:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.cava {
     background-color: #871de2;
 }
-button.cava:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.cava:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.jersey {
     background-color: #871de2;
     margin-top: 5px;
 }
-button.jersey:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.jersey:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.jimmy {
     background-color: #871de2;
 }
-button.jimmy:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.jimmy:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.coal {
     background-color: #871de2;
 }
-button.coal:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.coal:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.sarku {
     background-color: #871de2;
     margin-top: 5px;
 }
-button.sarku:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.sarku:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.cfa {
     background-color: #871de2;
 }
-button.cfa:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.cfa:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 button.wawa {
     background-color: #871de2;
 }
-button.wawa:hover {
-    background-color: white;
-    color: #56039d;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button.wawa:hover {
+        background-color: white;
+        color: #56039d;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
-
 
 /* Function Buttons */
 div.Buttons {
@@ -245,15 +276,25 @@ button {
     text-shadow: 0px 0px 12px #490b80;
 }
 
-button:hover{
-    background-color: white;
-    color: #871de2;
-    box-shadow: 0px 0px 10px grey;
+@media (hover:hover) {
+    button:hover {
+        background-color: white;
+        color: #871de2;
+        box-shadow: 0px 0px 10px grey;
+    }
 }
 
-img.background {
-    margin-left: -10px;
-    margin-top: -10px;
-    margin-bottom: -12px;
-    max-width: 110%;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    background-image: url("thanos.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
 }
