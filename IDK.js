@@ -416,6 +416,45 @@ function clearAll(){
     document.styleSheets[0].addRule('button.wawa', 'background-color: #56039d;');
 }
 
+function selectAll(){
+    i1=0;
+    i2=0;
+    i3=0;
+    i4=0;
+    i5=0;
+    i6=0;
+    i7=0;
+    i8=0;
+    i9=0;
+    i10=0;
+    i11=0;
+    i12=0;
+    i13=0;
+    i14=0;
+    i15=0;
+    i16=0;
+    i17=0;
+    i18=0;
+    document.styleSheets[0].addRule('button.tippy', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.panera', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.sheetz', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.moes', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.danks', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.fords', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.velocity', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.social', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.east', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.bonchon', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.chipotle', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.cava', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.jersey', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.jimmy', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.coal', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.sarku', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.cfa', 'background-color: #871de2;');
+    document.styleSheets[0].addRule('button.wawa', 'background-color: #871de2;');
+}
+
 
 //Button Functions
 function food() {
