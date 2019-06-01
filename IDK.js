@@ -537,10 +537,10 @@ function drive() {
     if (randNum == 1) {
         var randNum2 = Math.ceil(Math.random() * 3);
         if (randNum2==1){
-            alert("Brian (He's a dumbass)");
+            alert("Brian('s a dumbass)");
         }
         if (randNum2==2){
-            alert("Brian (He's a headass)");
+            alert("Brian('s a headass)");
         }
         if (randNum2==3){
             alert("Brian (If he even shows up)");
