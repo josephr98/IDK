@@ -517,30 +517,158 @@ function food() {
     
     var randNum = Math.floor(Math.random() * foodArray.length);
     
-    alert(foodArray[randNum]);
+    //Dusting
+    var opacity_ = 1, i_ = 0;
+    setTimeout(function fade() {
+        document.getElementById("both").disabled = true;
+        document.getElementById("food").disabled = true;
+        document.getElementById("drive").disabled = true;
+        document.getElementById("reset").disabled = true;
+        
+        if (opacity_ > 0) {
+            opacity_ = opacity_ - 0.05;
+        }
+        var opacity_string = opacity_.toString();
+        
+        var opacity_opposite = 1 - opacity_;
+        var opacity_opposite_string = opacity_opposite.toString();
+        document.getElementById("reset").style.opacity = opacity_opposite_string;
+        document.getElementById("driver").style.opacity = opacity_opposite_string;
+        
+        if (randNum != 0) {
+            document.getElementById("tippy").style.opacity = opacity_string;
+        }
+        if (randNum != 1) {
+            document.getElementById("panera").style.opacity = opacity_string;
+        }
+        if (randNum != 2) {
+            document.getElementById("sheetz").style.opacity = opacity_string;
+        }
+        if (randNum != 3) {
+            document.getElementById("moes").style.opacity = opacity_string;
+        }
+        if (randNum != 4) {
+            document.getElementById("danks").style.opacity = opacity_string;
+        }
+        if (randNum != 5) {
+            document.getElementById("fords").style.opacity = opacity_string;
+        }
+        if (randNum != 6) {
+            document.getElementById("velocity").style.opacity = opacity_string;
+        }
+        if (randNum != 7) {
+            document.getElementById("social").style.opacity = opacity_string;
+        }
+        if (randNum != 8) {
+            document.getElementById("east").style.opacity = opacity_string;
+        }
+        if (randNum != 9) {
+            document.getElementById("bonchon").style.opacity = opacity_string;
+        }
+        if (randNum != 10) {
+            document.getElementById("chipotle").style.opacity = opacity_string;
+        }
+        if (randNum != 11) {
+            document.getElementById("cava").style.opacity = opacity_string;
+        }
+        if (randNum != 12) {
+            document.getElementById("jersey").style.opacity = opacity_string;
+        }
+        if (randNum != 13) {
+            document.getElementById("jimmy").style.opacity = opacity_string;
+        }
+        if (randNum != 14) {
+            document.getElementById("coal").style.opacity = opacity_string;
+        }
+        if (randNum != 15) {
+            document.getElementById("sarku").style.opacity = opacity_string;
+        }
+        if (randNum != 16) {
+            document.getElementById("cfa").style.opacity = opacity_string;
+        }
+        if (randNum != 17) {
+            document.getElementById("wawa").style.opacity = opacity_string;
+        }
+        
+        document.getElementById("selectAll").style.opacity = opacity_string;
+        document.getElementById("clear").style.opacity = opacity_string;
+        
+        document.getElementById("foodOptions").style.opacity = opacity_string;
+        
+        document.getElementById("decision").style.opacity = opacity_string;
+        document.getElementById("both").style.opacity = opacity_string;
+        document.getElementById("food").style.opacity = opacity_string;
+        document.getElementById("drive").style.opacity = opacity_string;
+        
+        i_++;
+        if (i_ < 25) {
+            setTimeout(fade, 50);
+        }
+        if (i_ == 25) {
+            document.getElementById("both").disabled = false;
+            document.getElementById("food").disabled = false;
+            document.getElementById("drive").disabled = false;
+            document.getElementById("reset").disabled = false;
+        }
+    }, 50)
 }
 
 function drive() {
     var randNum = Math.ceil(Math.random() * 3);
-    
     if (randNum == 1) {
         var randNum2 = Math.ceil(Math.random() * 3);
         if (randNum2==1){
-            alert("Brian (He's a dumbass)");
+            document.getElementById("driver").innerHTML = "Brian('s a dumbass)";
         }
         if (randNum2==2){
-            alert("Brian (He's a headass)");
+            document.getElementById("driver").innerHTML = "Brian('s a headass)";
         }
         if (randNum2==3){
-            alert("Brian (If he even shows up)");
+            document.getElementById("driver").innerHTML = "Brian (If he even shows up)";
         }
     }
     
     if (randNum == 2) {
-        alert("Caleb");
+        document.getElementById("driver").innerHTML = "Caleb";
     }
     
     if (randNum == 3) {
-        alert("Joseph");
+        document.getElementById("driver").innerHTML = "Joseph";
     }
+}
+
+function reset() {
+    var opacity_string = "1";
+    var opacity_opposite_string = "0";
+    document.getElementById("reset").style.opacity = opacity_opposite_string;
+    document.getElementById("driver").style.opacity = opacity_opposite_string;
+        
+    document.getElementById("tippy").style.opacity = opacity_string;
+    document.getElementById("panera").style.opacity = opacity_string;
+    document.getElementById("sheetz").style.opacity = opacity_string;
+    document.getElementById("moes").style.opacity = opacity_string;
+    document.getElementById("danks").style.opacity = opacity_string;
+    document.getElementById("fords").style.opacity = opacity_string;
+    document.getElementById("velocity").style.opacity = opacity_string;
+    document.getElementById("social").style.opacity = opacity_string;
+    document.getElementById("east").style.opacity = opacity_string;
+    document.getElementById("bonchon").style.opacity = opacity_string;
+    document.getElementById("chipotle").style.opacity = opacity_string;
+    document.getElementById("cava").style.opacity = opacity_string;
+    document.getElementById("jersey").style.opacity = opacity_string;
+    document.getElementById("jimmy").style.opacity = opacity_string;
+    document.getElementById("coal").style.opacity = opacity_string;
+    document.getElementById("sarku").style.opacity = opacity_string;
+    document.getElementById("cfa").style.opacity = opacity_string;
+    document.getElementById("wawa").style.opacity = opacity_string;
+    
+    document.getElementById("selectAll").style.opacity = opacity_string;
+    document.getElementById("clear").style.opacity = opacity_string;
+    
+    document.getElementById("foodOptions").style.opacity = opacity_string;
+    
+    document.getElementById("decision").style.opacity = opacity_string;
+    document.getElementById("both").style.opacity = opacity_string;
+    document.getElementById("food").style.opacity = opacity_string;
+    document.getElementById("drive").style.opacity = opacity_string;
 }

@@ -33,7 +33,7 @@
         <div class="hero-image" id="thanos"></div>
 
         <div class="options" id="options">
-            <div style = "width: 430px; text-align: center"><h2>Food Options</h2></div>
+            <div id="foodOptions" style = "width: 430px; text-align: center"><h2>Food Options</h2></div>
             <button class="tippy" id ="tippy" onclick="tippy()" >Tippy's Tacos</button>
             <button class="panera" id ="panera" onclick="panera()">Panera</button>
             <button class="sheetz" id ="sheetz" onclick="sheetz()">Sheetz</button>
@@ -53,16 +53,19 @@
             <button class="cfa" id ="cfa" onclick="cfa()">Chick fil A</button>
             <button class="wawa" id ="wawa" onclick="wawa()">Wawa</button>
             <button class="clear" id="selectAll" onclick="selectAll()">Select All</button>
+            <button class="clear__" id="driver">No Driver</button>
             <button class="clear" id="clear" onclick="clearAll()">Clear All</button>
-            <button class="clear" id="reset">Reset</button>
+            <button class="clear_">Some Text</button>
+            <button class="clear_" id="reset" onclick="reset()">Reset</button>
+            <button class="clear_">Some Text</button>
         </div>
         
         <div class="Buttons" id="Buttons">
-            <div style = "width: 430px; text-align: center"><h2>Make a Decision</h2></div>
+            <div id="decision" style = "width: 430px; text-align: center"><h2>Make a Decision</h2></div>
 
-            <button onclick="food(); drive()">BOTH</button>
-            <button onclick="food()">FOOD</button>
-            <button onclick="drive()">DRIVE</button>
+            <button id="both" onclick="food(); drive()">BOTH</button>
+            <button id="food" onclick="food()">FOOD</button>
+            <button id="drive" onclick="drive()">DRIVE</button>
         </div>
         
         <div class="block" id="block"></div>
