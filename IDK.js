@@ -8,9 +8,6 @@ function mobilecheck() {
 mobilecheck();
 console.log(check);
 
-if (check == true) {
-    console.log("oof");
-} else {
 //Scales Background Image
 function background() {
     var height = document.documentElement.clientHeight;
@@ -507,5 +504,4 @@ function drive() {
     if (randNum == 3) {
         alert("Joseph");
     }
-}
 }
