@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 90;
     line-height: 1.38;
     margin-left: 10px;
@@ -54,7 +54,7 @@ div.block {
     background-color: #ffffff;
     position: absolute;
     top: 75px;
-    height: 595px;
+    height: 605px;
     width: 480px;
     opacity: 0.48;
     box-shadow: 0px 0px 7px white;
@@ -259,7 +259,7 @@ button.wawa {
 div.Buttons {
     z-index: 100;
     position: absolute;
-    top: 530px;
+    top: 570px;
     height: 70px;
     width: 430px;
 }
