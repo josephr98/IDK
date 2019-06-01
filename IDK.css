@@ -302,37 +302,13 @@ body {
 }
 
 button.clear{
-    background-color: #871de2;
+    margin-top: 5px;
+    background-color: #414141;
 }
 @media (hover:hover) {
     button.clear:hover {
         background-color: white;
-        color: #56039d;
-        box-shadow: 0px 0px 10px grey;
-    }
-}
-
-button.nothing{
-    background-color: #871de2;
-    opacity: 0;
-}
-@media (hover:hover) {
-    button.nothing:hover {
-        background-color: white;
-        cursor: auto;
-        color: #56039d;
-        box-shadow: 0px 0px 10px grey;
-    }
-}
-button.nothing2{
-    background-color: #871de2;
-    opacity: 0;
-}
-@media (hover:hover) {
-    button.nothing2:hover {
-        background-color: white;
-        cursor: auto;
-        color: #56039d;
+        color: #414141;
         box-shadow: 0px 0px 10px grey;
     }
 }
