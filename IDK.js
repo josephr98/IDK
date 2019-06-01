@@ -522,9 +522,9 @@ function food() {
         if (randNum2==1){
             alert("Select at least one food option you big dumb");
         } else if (randNum2==2){
-            alert("You are the reason why Tony Stark died.")
+            alert("You are the reason why Tony Stark died. Select a place to eat.")
         } else{
-            alert("Come on Brian...really?")
+            alert("Come on Brian...really? smh")
         }
     } else{
         alert(foodArray[randNum]);
