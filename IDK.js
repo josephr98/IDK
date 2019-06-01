@@ -517,7 +517,18 @@ function food() {
     
     var randNum = Math.floor(Math.random() * foodArray.length);
     
-    alert(foodArray[randNum]);
+    if(foodArray.length==0){
+        var randNum2 = Math.ceil(Math.random() *3)
+        if (randNum2==1){
+            alert("Select at least one food option you big dumb");
+        } else if (randNum2==2){
+            alert("You are the reason why Tony Stark died.")
+        } else{
+            alert("Come on Brian...really?")
+        }
+    } else{
+        alert(foodArray[randNum]);
+    }
 }
 
 function drive() {
