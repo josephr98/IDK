@@ -9,7 +9,7 @@
     height: 55px;
     width: 100%;
     z-index: 999;
-    opacity: 0.88;
+    opacity: 0.9;
     box-shadow: 0px 0px 10px #3d0071;
     text-align: center;
 }
@@ -25,7 +25,7 @@
 }
 
 .notsticky {
-    bottom: 0px;
+    top: 695px;
     width: 100%;
     background: white;
     position: absolute;
@@ -341,9 +341,10 @@ button.nothing2{
 .hero-image {
     background-image: url("thanos.jpg");
     background-color: #cccccc;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     display: block;
+    background-attachment: fixed;
 }
