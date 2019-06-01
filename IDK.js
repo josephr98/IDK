@@ -43,6 +43,7 @@ function resize() {
             document.getElementById("Buttons").style.left = buttonPosStringW;
         }
         buttonPosFunc();
+        
 
         //Centers Options Div
         function optionPosFunc() {
@@ -354,6 +355,45 @@ function wawa() {
         i18 = 0;
         document.styleSheets[0].addRule('button.wawa', 'background-color: #871de2;');
     }
+}
+
+function clearAll(){
+    i1=1;
+    i2=1;
+    i3=1;
+    i4=1;
+    i5=1;
+    i6=1;
+    i7=1;
+    i8=1;
+    i9=1;
+    i10=1;
+    i11=1;
+    i12=1;
+    i13=1;
+    i14=1;
+    i15=1;
+    i16=1;
+    i17=1;
+    i18=1;
+    document.styleSheets[0].addRule('button.tippy', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.panera', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.sheetz', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.moes', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.danks', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.fords', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.velocity', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.social', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.east', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.bonchon', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.chipotle', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.cava', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.jersey', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.jimmy', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.coal', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.sarku', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.cfa', 'background-color: #56039d;');
+    document.styleSheets[0].addRule('button.wawa', 'background-color: #56039d;');
 }
 
 
