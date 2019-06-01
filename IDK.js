@@ -15,11 +15,9 @@ window.addEventListener("resize", background);
 function resize() {
     var wscore = document.documentElement.clientWidth;
     if (wscore > 1060) {
-        
         //Side Bar
-        document.getElementById("sticky_").style.top = "55px";
-        document.getElementById("sticky_").style.bottom = "";
-        document.getElementById("sticky_").style.width = "50px";
+        document.getElementById("sticky_").style.display = "inline-block";
+        document.getElementById("notsticky").style.display = "none";
         
         //Text
         document.styleSheets[0].addRule('h1', 'font-size: 35px;');
@@ -67,11 +65,9 @@ function resize() {
         sbar();
         
     } else if (wscore > 540) {
-        
         //Side Bar
-        document.getElementById("sticky_").style.top = "55px";
-        document.getElementById("sticky_").style.bottom = "";
-        document.getElementById("sticky_").style.width = "50px";
+        document.getElementById("sticky_").style.display = "inline-block";
+        document.getElementById("notsticky").style.display = "none";
         
         //Text
         document.styleSheets[0].addRule('h1', 'font-size: 20px;');
@@ -119,11 +115,9 @@ function resize() {
         sbar();
         
     } else {
-        
         //Side Bar
-        document.getElementById("sticky_").style.top = "";
-        document.getElementById("sticky_").style.bottom = "0px";
-        document.getElementById("sticky_").style.width = "100%";
+        document.getElementById("sticky_").style.display = "none";
+        document.getElementById("notsticky").style.display = "inline-block";
         
         //Text
         document.styleSheets[0].addRule('h1', 'font-size: 20px;');
@@ -159,16 +153,6 @@ function resize() {
             document.getElementById("options").style.left = optionPosStringW;
         }
         optionPosFunc();
-        
-        //Side Bar Height;
-        function sbar() {
-            var height = document.documentElement.clientHeight;
-            var H = height - 719;
-            var StringH = H.toString() + "px";
-
-            document.getElementById("sticky_").style.height = StringH;
-        }
-        sbar();
     }
 }
 resize();
